@@ -1,0 +1,245 @@
+/* header styles */
+header {
+    height: 70px;
+    background-color:burlywood;
+    position: relative;
+    text-transform: capitalize;
+}
+header a img {
+    height: 70px;
+    width: 100px;
+    margin-left: 50px;
+}
+header ul {
+    display:inline;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+}
+header ul li {
+    display: inline;
+    padding: 20px;
+    margin:  10px;
+    font-weight: 500;
+}
+
+header ul li:hover a {
+    color: black;
+}
+header .search {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    right: 50px;
+    transform: translateY(-50%);
+}
+header .search input {
+    outline: none;
+    border: none;
+    padding:5px 10px;
+}
+header .search p {
+    display: inline-block;
+    color: white;
+    margin-left: 10px;
+    padding: 15px 20px;
+} 
+li a {
+    text-decoration: none;
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    /* padding: 5px 10px; */
+  }
+  li {
+    float: left;
+  }
+  /* end  header style */
+  /* banner1 */
+  .section1{
+    position: relative;
+    width: 100%;
+    height: 400px;
+
+}
+.section1 img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+
+}
+.section1 h1{
+    position: absolute;
+    text-align: center;
+    top: 90px;
+    left: 150px;
+
+}
+ .section1 p{
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    font-weight: bold;
+ }
+ .section1 button{
+    position: absolute;
+    top: 200px;
+    left: 150px;
+    border: none;
+    background-color:orangered ;
+    color: white;
+    padding: 10px;
+ }
+ /* start section two */
+ .section2 div{
+    display: inline-block;
+    margin: 0 100px;
+ }
+ .section2{
+    margin-top: 20px;
+    text-align: center;
+ }
+ /* start section 3 */
+ .section3 {
+    position: relative;
+ }
+ .section3 h2
+ {
+position: absolute;
+top: 30%;
+left: 50%;
+font-size: 40px;
+color: white;
+ }
+ /* start section4 */
+ .part2 div {
+    display: inline-block;
+    margin: 0 50px;
+
+    
+ }
+  .part3 div{
+    display: inline-block;
+    margin: 0 200px;
+    
+  }
+  .part2{
+    margin: 50px;
+
+  }
+  /* start feedback */
+  .feedback {
+    padding: 50px 0; text-align: center;
+}
+.feedback .reviews  {
+    text-align: center;
+    margin: 50px 0;
+}
+.feedback .reviews .rev {
+    display: inline-block;
+    padding: 20px;
+    margin-left: 50px;
+    width: 300px;
+    vertical-align: middle;
+    background-color: #c69c6f;
+    border-radius: 20px;
+}
+/* start blogs */
+.blogs {
+    
+    padding: 50px 0;
+}
+.blogs .all_blogs {
+    text-align: center;
+}
+.blogs .all_blogs .blog {
+    display: inline-block;  
+    margin: 60px ;
+    background-color:#c69c6f;
+    border-radius: 20px;
+    overflow: hidden;
+}   
+.blogs .all_blogs .blog img {
+    width: 500px;
+}
+.blogs .all_blogs .blog .text {
+    text-transform: capitalize;
+    text-align: left;
+    position: relative;
+    padding: 20px;
+}
+.blogs .all_blogs .blog .text .date{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 12px;
+}
+.blogs .all_blogs .blog .text p:last-child {
+    font-size: 14px;
+}
+.blogs h2{
+    text-align: center;
+}
+/* end blogs */
+/* start newsletter */
+  .news {
+    margin-bottom: 50px;
+  }  
+.news h2{
+    text-align: center;
+
+}
+.input{
+    text-align: center;
+
+}
+.input input{
+    width: 300px;
+    height: 50px;
+}
+.input button{
+    height: 50px;
+}
+/* start footer */
+footer {
+    height: 70px;
+    background-color: #bb7d3c;
+    position: relative;
+}
+footer a img {
+    height: 60px;
+    margin-left: 50px;
+}
+footer ul {
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    transform: translateY(-50%);
+    color: white;
+    text-transform: capitalize;
+    height: 30px;
+}
+footer ul li {
+    display: inline-block;
+    padding: 20px 20px 0 20px;
+    margin: 0 20px;
+    font-weight: 500;
+    height: 30px;
+}
+footer ul li a {
+    text-decoration: none;
+    color: inherit;
+}
+footer input[list="language"] {
+    position: absolute;
+    padding: 5px;
+    width: 100px;
+    top: 50%;
+    right: 100px;
+    transform: translateY(-50%);
+    text-transform: capitalize;
+}
+
+

@@ -1,0 +1,152 @@
+/* header styles */
+header {
+    height: 70px;
+    background-color:burlywood;
+    position: relative;
+    text-transform: capitalize;
+}
+header a img {
+    height: 70px;
+    width: 100px;
+    margin-left: 50px;
+}
+header ul {
+    display:inline;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+}
+header ul li {
+    display: inline;
+    padding: 20px;
+    margin:  10px;
+    font-weight: 500;
+}
+
+header ul li:hover a {
+    color: black;
+}
+header .search {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    right: 50px;
+    transform: translateY(-50%);
+}
+header .search input {
+    outline: none;
+    border: none;
+    padding:5px 10px;
+}
+header .search p {
+    display: inline-block;
+    color: white;
+    margin-left: 10px;
+    padding: 15px 20px;
+} 
+li a {
+    text-decoration: none;
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    /* padding: 5px 10px; */
+  }
+  li {
+    float: left;
+  }
+  footer {
+    height: 70px;
+    background-color: #bb7d3c;
+    position: relative;
+}
+footer a img {
+    height: 60px;
+    margin-left: 50px;
+}
+footer ul {
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    transform: translateY(-50%);
+    color: white;
+    text-transform: capitalize;
+    height: 30px;
+}
+footer ul li {
+    display: inline-block;
+    padding: 20px 20px 0 20px;
+    margin: 0 20px;
+    font-weight: 500;
+    height: 30px;
+}
+footer ul li a {
+    text-decoration: none;
+    color: inherit;
+}
+footer input[list="language"] {
+    position: absolute;
+    padding: 5px;
+    width: 100px;
+    top: 50%;
+    right: 100px;
+    transform: translateY(-50%);
+    text-transform: capitalize;
+}
+.section5 div{
+    display: inline-block;
+    /* margin: 100px 0; */
+ }
+ .section2{
+    margin-top: 50px;
+    text-align: center;
+ }
+ .some-Suggest {
+    padding: 50px 0;
+}
+.styletable table {
+    width:80%;
+    margin: 20px auto;
+    text-align: center;
+    text-transform: capitalize;
+    border-collapse: collapse;
+}
+.styletable table thead {
+    background-color: #bb3c3c;
+    color: white;
+}
+.styletable table tbody tr:nth-child(even) {
+    background-color: #f8a5e9;
+}
+.styletable h2{
+    text-align: center;
+
+}
+.some-Suggest table tbody tr:nth-child(odd) {
+    background-color: #9b83f1;
+}
+.styletable table td, 
+.styletable table th{
+    padding: 5px;
+}
+.information {
+    margin-top: 50px;
+    padding: 50px 0;
+}
+.information .all-boxs {
+    text-align: center;
+}
+.information .all-boxs .box {
+    display: inline-block;
+    width: 200px;
+    text-transform: capitalize;
+    margin-left: 40px;
+    padding: 10px;
+}
+.information .all-boxs .box p {
+    text-align: left;
+}
+.information .all-boxs .box p i {
+    margin-right: 10px;
+}
